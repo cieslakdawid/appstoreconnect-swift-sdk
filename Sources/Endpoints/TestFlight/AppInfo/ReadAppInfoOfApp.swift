@@ -12,7 +12,7 @@ extension APIEndpoint where T == AppInfoResponse {
     ///   - id: (Required) An opaque resource ID that uniquely identifies the resource.
     ///   - fields: Fields to return for included related types.
     public static func appInfo(
-        forAppWithId id: String,
+        appInfoId: String,
         fields: [AppInfoForApp.Field]? = nil,
         include relationships: [AppInfoForApp.Relationship]? = nil,
         next: PagedDocumentLinks? = nil) -> APIEndpoint {
@@ -21,7 +21,7 @@ extension APIEndpoint where T == AppInfoResponse {
         if let relationships = relationships { parameters.add(relationships) }
         if let nextCursor = next?.nextCursor { parameters["cursor"] = nextCursor }
         return APIEndpoint(
-            path: "appInfos/\(id)",
+            path: "appInfos/\(appInfoId)",
             method: .get,
             parameters: parameters)
     }
