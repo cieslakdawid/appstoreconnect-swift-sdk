@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FE44F3B256FAF79008DD90C /* ListAppStoreVersionsForAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE44F3A256FAF79008DD90C /* ListAppStoreVersionsForAppTests.swift */; };
 		3FFAB1F62529185600DD78B2 /* KidsAgeBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAB1E82529185500DD78B2 /* KidsAgeBand.swift */; };
 		3FFAB1F72529185600DD78B2 /* AppInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAB1E92529185500DD78B2 /* AppInfoResponse.swift */; };
 		3FFAB1F92529185600DD78B2 /* AppInfoRelationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAB1EB2529185500DD78B2 /* AppInfoRelationship.swift */; };
@@ -520,6 +521,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FE44F3A256FAF79008DD90C /* ListAppStoreVersionsForAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAppStoreVersionsForAppTests.swift; sourceTree = "<group>"; };
 		3FFAB1E82529185500DD78B2 /* KidsAgeBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KidsAgeBand.swift; sourceTree = "<group>"; };
 		3FFAB1E92529185500DD78B2 /* AppInfoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfoResponse.swift; sourceTree = "<group>"; };
 		3FFAB1EB2529185500DD78B2 /* AppInfoRelationship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfoRelationship.swift; sourceTree = "<group>"; };
@@ -1268,6 +1270,7 @@
 				50996A79241500190044308C /* ListBuildsOfAppTests.swift */,
 				50996A7A241500190044308C /* RemoveBetaTestersFromGroupsAndBuildsOfAppTests.swift */,
 				50996A7B241500190044308C /* ListAppsTests.swift */,
+				3FE44F3A256FAF79008DD90C /* ListAppStoreVersionsForAppTests.swift */,
 				50996A7C241500190044308C /* ListPrereleaseVersionsForAppTests.swift */,
 				50996A7D241500190044308C /* GetPrereleaseVersionIDsForAppTests.swift */,
 				50996A7E241500190044308C /* GetBetaLicenseAgreementIDForAppTests.swift */,
@@ -2529,6 +2532,7 @@
 				50996B23241500190044308C /* CreateBetaGroupTests.swift in Sources */,
 				50996AF0241500190044308C /* SendNotificationOfAvailableBuildTests.swift in Sources */,
 				50996B18241500190044308C /* ReadBetaGroupInformationTests.swift in Sources */,
+				3FE44F3B256FAF79008DD90C /* ListAppStoreVersionsForAppTests.swift in Sources */,
 				50996AC8241500190044308C /* SubmitAppForBetaReviewTests.swift in Sources */,
 				50996B19241500190044308C /* ListBetaTestersInBetaGroupTests.swift in Sources */,
 				50996B20241500190044308C /* ModifyBetaGroupTests.swift in Sources */,
