@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3FE44F3B256FAF79008DD90C /* ListAppStoreVersionsForAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE44F3A256FAF79008DD90C /* ListAppStoreVersionsForAppTests.swift */; };
 		3FE44F41256FB602008DD90C /* ReadAppInfoOfAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE44F40256FB602008DD90C /* ReadAppInfoOfAppTests.swift */; };
+		3FE44F45256FC195008DD90C /* ListAppInfosForAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE44F44256FC195008DD90C /* ListAppInfosForAppTests.swift */; };
 		3FFAB1F62529185600DD78B2 /* KidsAgeBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAB1E82529185500DD78B2 /* KidsAgeBand.swift */; };
 		3FFAB1F72529185600DD78B2 /* AppInfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAB1E92529185500DD78B2 /* AppInfoResponse.swift */; };
 		3FFAB1F92529185600DD78B2 /* AppInfoRelationship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFAB1EB2529185500DD78B2 /* AppInfoRelationship.swift */; };
@@ -524,6 +525,7 @@
 /* Begin PBXFileReference section */
 		3FE44F3A256FAF79008DD90C /* ListAppStoreVersionsForAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAppStoreVersionsForAppTests.swift; sourceTree = "<group>"; };
 		3FE44F40256FB602008DD90C /* ReadAppInfoOfAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadAppInfoOfAppTests.swift; sourceTree = "<group>"; };
+		3FE44F44256FC195008DD90C /* ListAppInfosForAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListAppInfosForAppTests.swift; sourceTree = "<group>"; };
 		3FFAB1E82529185500DD78B2 /* KidsAgeBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KidsAgeBand.swift; sourceTree = "<group>"; };
 		3FFAB1E92529185500DD78B2 /* AppInfoResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfoResponse.swift; sourceTree = "<group>"; };
 		3FFAB1EB2529185500DD78B2 /* AppInfoRelationship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfoRelationship.swift; sourceTree = "<group>"; };
@@ -1273,6 +1275,7 @@
 				50996A7A241500190044308C /* RemoveBetaTestersFromGroupsAndBuildsOfAppTests.swift */,
 				50996A7B241500190044308C /* ListAppsTests.swift */,
 				3FE44F3A256FAF79008DD90C /* ListAppStoreVersionsForAppTests.swift */,
+				3FE44F44256FC195008DD90C /* ListAppInfosForAppTests.swift */,
 				50996A7C241500190044308C /* ListPrereleaseVersionsForAppTests.swift */,
 				50996A7D241500190044308C /* GetPrereleaseVersionIDsForAppTests.swift */,
 				50996A7E241500190044308C /* GetBetaLicenseAgreementIDForAppTests.swift */,
@@ -2529,6 +2532,7 @@
 				50996AEB241500190044308C /* ListBetaBuildLocalizationsTests.swift in Sources */,
 				50996AEA241500190044308C /* CreateBetaBuildLocalizationTests.swift in Sources */,
 				50996AC5241500190044308C /* ReadBuildInformationOfBetaAppReviewSubmissionTests.swift in Sources */,
+				3FE44F45256FC195008DD90C /* ListAppInfosForAppTests.swift in Sources */,
 				50996B3E241500190044308C /* APIProviderTests.swift in Sources */,
 				50996B41241500190044308C /* QueryParameterTests.swift in Sources */,
 				50996B32241500190044308C /* ListAppsVisibleToInvitedUserTests.swift in Sources */,
