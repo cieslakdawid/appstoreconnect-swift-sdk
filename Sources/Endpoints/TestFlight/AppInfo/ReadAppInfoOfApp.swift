@@ -15,16 +15,10 @@ extension APIEndpoint where T == AppInfoResponse {
         forAppWithId id: String,
         fields: [AppInfoForApp.Field]? = nil,
         include relationships: [AppInfoForApp.Relationship]? = nil,
-        limit: Int? = nil,
         next: PagedDocumentLinks? = nil) -> APIEndpoint {
         var parameters = [String: Any]()
         if let fields = fields { parameters.add(fields) }
         if let relationships = relationships { parameters.add(relationships) }
-        if let limit = limit {
-            parameters["limit"] = limit
-        } else if let nextLimit = next?.nextLimit {
-            parameters["limit"] = nextLimit
-        }
         if let nextCursor = next?.nextCursor { parameters["cursor"] = nextCursor }
         return APIEndpoint(
             path: "appInfos/\(id)",
